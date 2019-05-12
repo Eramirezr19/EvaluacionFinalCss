@@ -44,6 +44,9 @@ body{
   padding: 0 0 0 4%;
 }
 
+.c8 img{
+width: 15px;
+}
 @media (max-width:900px) and (min-width:100px) {
   .contenidoa, .contenidob, .contenidoc, .contenidod{
     width: 100%;

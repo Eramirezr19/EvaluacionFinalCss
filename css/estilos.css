@@ -1,0 +1,94 @@
+body{
+  background-color: #02010a;
+  margin: 10px;
+  color:white;
+  font-family: 'Dancing Script', cursive;
+}
+.contenidoa, .contenidob, .contenidoc, .contenidod{
+  display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+.contenidoa, .contenidob, .contenidoc,.contenidod{
+  text-align: center;
+  margin: 0;
+
+}
+.c1 h1{
+  color: white;
+  padding: 10px;
+  text-shadow: 0 0 2px #02010a;
+}
+
+.c1, .c2 {
+	color: white;
+	background-color: #5b7989;
+}
+
+.c3 {
+	color: black;
+	background-color: #82c3a6;
+}
+
+.c4, .c5 {
+	color: black;
+	background-color: #d5c75f;
+}
+
+.c6, .c7, .c8, .c9 {
+	color: black;
+	background-color: #C6d5c5;
+}
+.c6{
+  padding: 0 0 0 4%;
+}
+
+@media (max-width:900px) and (min-width:100px) {
+  .contenidoa, .contenidob, .contenidoc, .contenidod{
+    width: 100%;
+  }
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9 {
+width: 100%;
+}
+.c1{
+  border-radius: 10px 10px 0 0;
+}
+.c9{
+  border-radius: 0 0 10px 10px;
+}
+}
+@media (min-width:900px){
+  .contenidoa, .contenidob, .contenidoc, .contenidod{
+    width: 900px;
+  }
+
+  .c1, .c2{
+  width:50%;
+  }
+  .c3{
+  width:100%;
+  }
+  .c4, .c5{
+    width: 50%;
+  }
+  .c6, .c7, .c8, .c9{
+  width: 24%;
+  text-align: left;
+  }
+  .c1{
+    border-radius: 10px 0 0 0;
+  }
+  .c2{
+    border-radius: 0 10px 0 0;
+  }
+  .c6{
+    border-radius: 0 0 0 10px;
+  }
+  .c9{
+    border-radius: 0 0 10px 0;
+  }
+  h1{
+    text-align: left;
+  }
+}

@@ -4,6 +4,22 @@ body{
   color:white;
   font-family: 'Dancing Script', cursive;
 }
+header{
+  animation: miAnimacion 1s;
+}
+@-webkit-keyframes miAnimacion{
+0%{
+margin-top:150%;
+}
+60%{
+margin-top: -5%;
+}
+100%{
+margin-top:0%;
+}
+}
+
+
 .contenidoa, .contenidob, .contenidoc, .contenidod{
   display: -webkit-flex;
 	display: flex;

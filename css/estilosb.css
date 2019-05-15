@@ -1,9 +1,26 @@
+
 body{
   background-color: #02010a;
   margin: 5%;
   color:white;
   font-family: 'Dancing Script', cursive;
 }
+header{
+  animation: miAnimacion 1s;
+}
+@-webkit-keyframes miAnimacion{
+0%{
+margin-top:150%;
+}
+60%{
+margin-top: -5%;
+}
+100%{
+margin-top:0%;
+}
+}
+
+
 .contenidoa, .contenidoc, .contenidod, .contenidoe{
   display: -webkit-flex;
 	display: flex;
@@ -13,7 +30,6 @@ body{
 .contenidoa, .contenidoc,.contenidod, .contenidoe{
   text-align: center;
   margin: 0;
-
 }
 .c1 h1{
   color: white;
@@ -25,8 +41,6 @@ body{
 	color: white;
 	background-color: #5b7989;
 }
-
-
 .c4, .c5, .c10 {
 	color: black;
 	background-color: #d5c75f;
@@ -85,6 +99,7 @@ width: 15px;
   padding-bottom: 20px;
   text-align: right;
 }
+
 #inicio{
   color: white;
   text-decoration: underline;
@@ -102,6 +117,17 @@ width: 15px;
   padding-left: 10px;
   padding-right: 20px;
 }
+.resaltar3{
+  color: white;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.resaltar4{
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 20px;
+}
 
 .c4 a{
   color: black;
@@ -109,6 +135,7 @@ width: 15px;
 .c5 a{
   color: black;
 }
+
 
 @media (max-width:900px) and (min-width:100px) {
   .contenidoa, .contenidoc, .contenidod, .contenidoe{
@@ -185,4 +212,16 @@ img{
   .c5 a{
     text-align: center;
 }
+}
+#imagen1{
+	-webkit-filter:blur(10px);
+	filter: blur(10px);
+}
+#imagen2, #imagen4, #imagen6{
+	-webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
+#imagen3{
+	-webkit-filter:sepia(90%);
+	filter: sepia(90%);
 }

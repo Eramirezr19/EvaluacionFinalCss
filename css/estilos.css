@@ -3,6 +3,7 @@ body{
   margin: 5%;
   color:white;
   font-family: 'Dancing Script', cursive;
+  text-align: center;
 }
 header{
   animation: miAnimacion 1s;
